@@ -9,8 +9,11 @@ with col1:
 
 with col2:
     st.title("Lee Johnson")
-    content = """I'm Lee, a passionate graphic designer, Python programmer, and web developer with a keen eye for aesthetics and a 
-    strong command of code. I blend creativity with technical expertise to craft visually stunning designs, build 
-    dynamic websites, and develop efficient Python solutions. Dedicated to delivering high-quality results that meet 
-    client needs and exceed expectations."""
+    content = """I'm Lee, a passionate graphic designer, Python programmer, and web developer with a keen eye for 
+    aesthetics and a strong command of code. I blend creativity with technical expertise to craft visually stunning 
+    designs, build dynamic websites, and develop efficient Python solutions. Dedicated to delivering high-quality 
+    results that meet client needs and exceed expectations."""
     st.info(content)
+
+content2 = """Below is a list of all my projects built using python. Feel free to contact me"""
+st.write(content2)
